@@ -26,7 +26,7 @@ class ConfigManager:
 
         default_config = {
             'notification_time': '09:00',
-            'topics': ['python', 'javascript', 'devops', 'git']
+            'topics': ['python', 'javascript', 'devops', 'git'],
             'enabled': True
         }
         self.save_config(default_config)
